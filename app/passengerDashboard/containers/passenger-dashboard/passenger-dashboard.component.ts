@@ -22,6 +22,11 @@ import { Passenger } from '../../models/passenger.interface'
                  Check in date:
                  {{ passenger.checkedInDate ? (passenger.checkedInDate | date: 'shortDate') : '' }}
             </div>
+            <div> Children Number: {{ passenger.children?.length || 0 }}</div>
+            <div>Children</div>
+            <div *ngFor="let child of passenger.children">
+                Name: {{ child.name}}, Age: {{ child.age }}
+            </div>
         </li>
       </ul>
     </div>
