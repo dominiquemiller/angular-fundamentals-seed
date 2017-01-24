@@ -1,1 +1,22 @@
-{}
+{
+  "passengers":  [{
+        "id": 1,
+        "fullname": "Stephen",
+        "checkedIn": false,
+        "checkedInDate": null,
+        "children": null
+      },{
+        "id": 2,
+        "fullame": "Dude",
+        "checkedIn": true,
+        "checkedInDate": 1491242000000,
+        "children": [{ "name": "little nique", "age": 11},
+                   { "name": "Fiona", "age": 1 }]
+      },{
+        "id": 3,
+        "fullname": "Andrea",
+        "checkedIn": true,
+        "checkedInDate": 1491242000003,
+        "children": [{ "name": "big boy", "age": 22}]
+      }]
+}
